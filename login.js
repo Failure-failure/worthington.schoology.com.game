@@ -2,7 +2,7 @@ const loginBtn = document.getElementById("loginBtn");
 const statusText = document.getElementById("status");
 
 // PLACEHOLDER: Apps Script URL goes here later
-const LOGIN_API = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
+const LOGIN_API = "https://script.google.com/macros/s/AKfycbxRvibhcI1Pat8eorZs0hXiT-at-IkFFBWDGBn8vNDCNlOHtR3eAmlzT8vyD96B0RxO/exec";
 
 loginBtn.onclick = async () => {
   statusText.textContent = "Logging in...";
